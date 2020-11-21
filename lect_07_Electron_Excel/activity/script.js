@@ -6,6 +6,9 @@ $(document).ready(function(){
 let db;
 let lsc;
 
+
+//4 side cases need to be taken care of
+
 $(".cell").on("click",function(){
     let rowId = Number($(this).attr("rowid"));
         let colId = Number($(this).attr("colid"));
